@@ -1,1 +1,15 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@layer utilities {
+  .container {
+    @apply px-4 mx-auto xl:max-w-[64rem];
+  }
+}
+
+@theme {
+  --color-primary: #33f462;
+  --color-primary-dark: #20b645;
+  --color-primary-darkest: #1ca03d;
+
+  --spacing-header-h: 74px;
+}
