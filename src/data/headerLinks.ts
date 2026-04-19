@@ -1,30 +1,30 @@
 import type { Section } from "../types/type";
 
 type HeaderLinks = {
-  id: Section;
+  sectionId: Section;
   label: string;
   href: string;
 }[];
 
 export const headerLinks: HeaderLinks = [
   {
-    id: "about",
+    sectionId: "about",
     label: "about",
     href: "#about",
   },
   {
-    id: "features",
+    sectionId: "features",
     label: "features",
     href: "#feature",
   },
   {
-    id: "more",
+    sectionId: "more",
     label: "more",
     href: "#more",
   },
   {
-    id: "contact",
+    sectionId: "contact",
     label: "contact",
     href: "#contact",
   },
-]
+];
