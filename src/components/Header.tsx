@@ -37,7 +37,13 @@ export default function Header() {
         <div className="flex items-center">
           <HeaderBurger isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
           <HeaderLinks isMenuOpen={isMenuOpen} />
-          <MainButton href="#" icon="fa-solid fa-bag-shopping">
+          <MainButton
+            href="#"
+            icon="fa-solid fa-bag-shopping"
+            target="_blank"
+            rel="noopener"
+            className="ml-[8px]"
+          >
             get dritto
           </MainButton>
         </div>

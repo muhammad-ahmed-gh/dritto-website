@@ -17,7 +17,7 @@ export default function MainButton(props: Props) {
       rel={props.rel}
       target={props.target}
       className={twMerge(
-        "flex justify-center items-center gap-[7px] ml-[8px] bg-primary-dark text-white rounded-[7px] w-[130px] h-[40px] capitalize transition-[background-color_transform] duration-300 hover:bg-primary-darkest active:transform-[scale(0.95)]",
+        "flex justify-center items-center gap-[7px] bg-primary-dark text-white rounded-[7px] w-[130px] h-[40px] capitalize transition-[background-color_transform] duration-300 hover:bg-primary-darkest active:transform-[scale(0.95)]",
         props.className ?? "",
       )}
     >
