@@ -5,7 +5,7 @@ import MainButton from "./UI/MainButton";
 export default function Hero() {
   return (
     <section className="bg-[#f8f9fc]">
-      <Container className="pt-header-h min-h-screen flex flex-col justify-center gap-[100px] items-center text-center md:flex-row md:gap-[30px] md:text-start">
+      <Container className="pt-[calc(var(--spacing-header-h)+var(--spacing-section-p))] pb-section-p min-h-screen flex flex-col justify-center gap-[100px] items-center text-center md:flex-row md:gap-[30px] md:text-start">
         <div className="flex-1">
           <img
             src="/logo.png"
